@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace;
+    font-size: 10px;
+}
+
+
+:root {
+    /* variables de color */
+    --azul1: #345FB4;
+    --azul2: #6789CA;
+    --gris1: #313131;
+    --gris2: #777777;
+    --gris3: #a5a5a5;
+
+    /* TAMAÑOS DE FUENTE */
+    --size-h1 : 3.6rem;
+    --size-h2 : 2.6rem;
+    --size-h3 : 2rem;
+    --size-parrafo : 1.6rem;
+}
+
+/* DEFINICIÓN DE LAS SECCIONES*/
+section{
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+    padding: 5rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+}

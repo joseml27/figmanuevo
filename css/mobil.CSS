@@ -1,0 +1,25 @@
+.section-movil{
+    max-width: 375px;
+    padding: 0 1rem ;
+}
+
+/****/
+.section-tarea {
+ 
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen2{
+    position: absolute;
+width: 375px;
+height: 385px;
+left: 0px;
+top: 428px;
+}
+.imagen{
+position: absolute;
+left: 124.61px;
+top: 161.13px;    
+}
